@@ -20,10 +20,10 @@ public class PasswordValidator {
             List<String> validationFeedback = analyzePassword(userInput);
 
             if(validationFeedback.isEmpty()){
-                System.out.println("✅ Success! Password meets all corporate security policies.");
+                System.out.println("Success! Password meets all corporate security policies.");
                 isPasswordSecure = true;
             }else{
-                System.out.println("❌ Password Invalid. Please fix the following issues:");
+                System.out.println("Password Invalid. Please fix the following issues:");
                 for (String error : validationFeedback){
                     System.out.println("   - " + error);
                 }
