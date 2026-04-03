@@ -25,12 +25,12 @@ Final Price    : 337.50 Rupees
 
 This project was built to demonstrate clean coding practices and modular architecture in Python. Key concepts include:
 
-## Technical Understanding:
+Technical Understanding:
 
-* **Modular Architecture:** Clean separation between user input, business logic, and output formatting.
-* **Robust Error Handling:** Uses `try-except` loops to gracefully handle invalid inputs without crashing.
-* **Clean Code Practices:** Replaced messy `if-else` chains with dictionary lookups for O(1) pricing calculations.
-* **Dynamic Formatting:** Uses Python f-strings for precise floating-point alignment on the final receipt.
+* Modular Architecture: Clean separation between user input, business logic, and output formatting.
+* Robust Error Handling: Uses `try-except` loops to gracefully handle invalid inputs without crashing.
+* Clean Code Practices: Replaced messy `if-else` chains with dictionary lookups for O(1) pricing calculations.
+* Dynamic Formatting: Uses Python f-strings for precise floating-point alignment on the final receipt.
 ```
 ### Task 2: Library Database Management &quot;Digital Library&quot; (SQL)
 
@@ -44,12 +44,12 @@ This project was built to demonstrate clean coding practices and modular archite
 3. Popularity Index: Returns [GenreCategory, TotalLoans] sorted by highest popularity.
 4. Database Cleanup: Deletes records of students inactive for over 3 years.
 
-## Technical Understanding:
+Technical Understanding:
 
-* **Relational Schema Design:** Built a normalized database structure using Primary and Foreign keys to enforce data integrity.
-* **Multi-Table Joins:** Utilized `JOIN` operations to cleanly connect student, book, and transaction records for targeted reporting.
-* **Data Aggregation:** Applied `GROUP BY` and `COUNT` functions to analyze borrowing trends and calculate popularity metrics.
-* **Targeted Data Cleanup:** Wrote dynamic `DELETE` statements using subqueries and the `HAVING MAX()` function to safely prune inactive accounts.
+* Relational Schema Design: Built a normalized database structure using Primary and Foreign keys to enforce data integrity.
+* Multi-Table Joins: Utilized `JOIN` operations to cleanly connect student, book, and transaction records for targeted reporting.
+* Data Aggregation: Applied `GROUP BY` and `COUNT` functions to analyze borrowing trends and calculate popularity metrics.
+* Targeted Data Cleanup: Wrote dynamic `DELETE` statements using subqueries and the `HAVING MAX()` function to safely prune inactive accounts.
 
 ```
 ### Task 3: Password Strength Validator &quot;SafeLog&quot; (Java Core)
@@ -75,10 +75,10 @@ Password Invalid. Please fix the following issues:
 Enter your new password: SecurePassword123
 Success! Password meets all corporate security policies.
 
-## Technical Understanding:
+Technical Understanding:
 
-* **Modular Design:** Decoupled the core validation logic (`analyzePassword`) from the user interface (`main` method) for better code organization and testability.
-* **Dynamic Collections:** Utilized Java `ArrayList` to collect and return comprehensive error feedback all at once, rather than stopping at the first failure.
-* **Character Processing:** Implemented `for` loops and the `Character` wrapper class (`isUpperCase`, `isDigit`) to efficiently evaluate individual string elements.
-* **State Management:** Used boolean flags and `while` loops to control application flow and create a seamless user retry mechanism.
+* Modular Design: Decoupled the core validation logic (`analyzePassword`) from the user interface (`main` method) for better code organization and testability.
+* Dynamic Collections: Utilized Java `ArrayList` to collect and return comprehensive error feedback all at once, rather than stopping at the first failure.
+* Character Processing: Implemented `for` loops and the `Character` wrapper class (`isUpperCase`, `isDigit`) to efficiently evaluate individual string elements.
+* State Management: Used boolean flags and `while` loops to control application flow and create a seamless user retry mechanism.
 ```
