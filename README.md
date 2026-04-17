@@ -6,6 +6,9 @@
 * **Files:** `farecalc.py`
 * **Output:**
 
+<img width="988" height="1600" alt="WhatsApp Image 2026-04-17 at 4 46 02 PM" src="https://github.com/user-attachments/assets/40f6def1-f8dd-4cfe-b5fa-21f5ec6ddf42" />
+
+
 ```text
 --- Urban Ride Fare Estimator ---
 Enter travel distance (km): 12.5
