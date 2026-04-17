@@ -4,11 +4,10 @@
 
 * **Description:** A Python script that calculates ride fares based on travel distance, vehicle category (Economy, Premium, SUV), and time of day. It demonstrates input validation, dictionary mapping, conditional logic (applying a 1.5x surge multiplier during peak hours), and formatted string output.
 * **Files:** `farecalc.py`
+* **Workflow:**
+  <img width="988" height="1600" alt="WhatsApp Image 2026-04-17 at 4 46 02 PM" src="https://github.com/user-attachments/assets/4d78f370-0560-4bad-b0ad-b4541333aa7c" />
+
 * **Output:**
-
-<img width="988" height="1600" alt="WhatsApp Image 2026-04-17 at 4 46 02 PM" src="https://github.com/user-attachments/assets/40f6def1-f8dd-4cfe-b5fa-21f5ec6ddf42" />
-
-
 ```text
 --- Urban Ride Fare Estimator ---
 Enter travel distance (km): 12.5
