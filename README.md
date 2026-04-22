@@ -38,10 +38,6 @@ Technical Understanding:
 
 * **Description:** Demonstrates relational database design and advanced querying. Includes Data Definition Language (DDL) for creating linked tables with Primary and Foreign Keys, and Data Manipulation Language (DML) for multi-table `JOIN`s, aggregations (`GROUP BY`), subqueries, and date-based filtering.
 * **Files:** `DigitalLibrary.sql`
-* **Workflow:**
-<img width="966" height="1280" alt="787a707d-32c2-4db2-a636-3b1cac468fc1" src="https://github.com/user-attachments/assets/4c0c9b30-9a16-4b50-ba85-5e6a199596a1" />
-<img width="850" height="1280" alt="1f7d4ea3-0c16-4d29-a4be-356d4db21f22" src="https://github.com/user-attachments/assets/03aad40c-dc86-4aa1-9d96-79e4b8ea4a1f" />
-
 * **Query Outcomes:**
 
 ```text
@@ -62,6 +58,9 @@ Technical Understanding:
 
 * **Description:** A console-based password validation tool. Demonstrates iterative user input handling with `Scanner`, String traversal, character analysis using the `Character` wrapper class, and dynamically collecting error feedback using an `ArrayList`.
 * **Files:** `PasswordValidator.java`
+* **Workflow:**
+<img width="966" height="1280" alt="787a707d-32c2-4db2-a636-3b1cac468fc1" src="https://github.com/user-attachments/assets/4c0c9b30-9a16-4b50-ba85-5e6a199596a1" />
+<img width="850" height="1280" alt="1f7d4ea3-0c16-4d29-a4be-356d4db21f22" src="https://github.com/user-attachments/assets/03aad40c-dc86-4aa1-9d96-79e4b8ea4a1f" />
 * **Output:**
 
 ```text
